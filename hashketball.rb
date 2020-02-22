@@ -286,7 +286,6 @@ def long_name_steals_a_ton?
       end
     end
   end
-
   if player_stats(player_with_longest_name)[:steals] >= most_steals
     return true
   end
